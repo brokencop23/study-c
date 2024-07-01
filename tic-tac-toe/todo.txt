@@ -1,0 +1,46 @@
+
+Draw field which will look like
+
+| 1 | 2 | O |
+| 4 | X | 6 |
+| 7 | 8 | 9 |
+
+Player 1 enters the number
+CPU picks his number
+
+Game is going:
+- till someone is won
+
+
+Field is array of chars 
+
+Stage 1. Let's draw the field and allow user to fill it with X and O one by one
+Stage 2. Add CPU to be the second player
+
+
+
+C C C
+C X C
+C C 9
+
+1 2 3 4 X 6 7 8 9
+
+X C 3
+C C 6
+7 8 9
+
+X C 3 C C 6 7 8 9
+
+
+C X C
+C C C
+7 8 9
+
+C X C C C C 7 8 9
+
+
+1 C X
+4 C C
+7 8 9
+
+1 C X 4 C C 7 8 9
